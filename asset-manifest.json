@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-click-game/static/css/main.62a4517a.chunk.css",
+    "main.js": "/react-click-game/static/js/main.cecc2954.chunk.js",
+    "main.js.map": "/react-click-game/static/js/main.cecc2954.chunk.js.map",
+    "runtime-main.js": "/react-click-game/static/js/runtime-main.ef323288.js",
+    "runtime-main.js.map": "/react-click-game/static/js/runtime-main.ef323288.js.map",
+    "static/js/2.88e21bc7.chunk.js": "/react-click-game/static/js/2.88e21bc7.chunk.js",
+    "static/js/2.88e21bc7.chunk.js.map": "/react-click-game/static/js/2.88e21bc7.chunk.js.map",
+    "static/js/3.a1d2999f.chunk.js": "/react-click-game/static/js/3.a1d2999f.chunk.js",
+    "static/js/3.a1d2999f.chunk.js.map": "/react-click-game/static/js/3.a1d2999f.chunk.js.map",
+    "index.html": "/react-click-game/index.html",
+    "static/css/main.62a4517a.chunk.css.map": "/react-click-game/static/css/main.62a4517a.chunk.css.map",
+    "static/js/2.88e21bc7.chunk.js.LICENSE.txt": "/react-click-game/static/js/2.88e21bc7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef323288.js",
+    "static/js/2.88e21bc7.chunk.js",
+    "static/css/main.62a4517a.chunk.css",
+    "static/js/main.cecc2954.chunk.js"
+  ]
+}
