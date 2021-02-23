@@ -16,8 +16,7 @@ class App extends Component {
   };
 
   clubShuffle = () => {
-    let clubs = this.state.clubs.sort(() => Math.random() - 0.5);
-    this.setState({ clubs: clubs });
+    clubs.sort((a, b) => 0.5 - Math.random());
   };
 
   pickedCard = (id) => {
