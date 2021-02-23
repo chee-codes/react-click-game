@@ -7,11 +7,38 @@ import Main from "./components/Main";
 
 class App extends Component {
   state = {
-    teams: teams,
+    clubs: clubs,
     score: 0,
     topScore: 0,
     msg: "Click an image to begin!",
-    pickedTeams: [],
+    pickedClubs: [],
+  };
+
+  clubShuffle = () => {
+    return clubs.sort((a, b) => {
+      Math.random() - 0.5;
+    });
+  };
+
+  pickedCard = (id) => {
+    if (this.state.pickedClubs.indexOf(id) !== -1) {
+      this.setState({
+        score: 0,
+        pickedClubs: [],
+        msg: "Game Over, Try Again!",
+      });
+    } else {
+      this.state.pickedClubs.push(id);
+      this.setState({
+        score: this.state.score + 1,
+        msg: "You guessed correctly!",
+      });
+
+      if (this.state.score >= this.state.topScore) {
+        this.setState({ topScore: this.state.score + 1 });
+      }
+    }
+    this.clubShuffle();
   };
 
   render() {
