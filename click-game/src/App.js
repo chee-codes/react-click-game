@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Nav from "./components/Nav/index";
 import Header from "./components/Header/index";
 import ImgCard from "./components/ImageCard";
-import Footer from "./components/FooterOne";
+import Footer from "./components/Footer";
 import Main from "./components/Main";
 import clubs from "./clubs.json";
 

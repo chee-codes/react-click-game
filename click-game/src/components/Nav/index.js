@@ -4,7 +4,7 @@ import Style from "./style.css";
 const Nav = (props) => {
   return (
     <div>
-      <nav className="navbar navbar-light bg-light">
+      <nav className="navbar fixed">
         <span className="navbar-brand mb-0 h1">Navbar</span>
         <span>{props.msg}</span>
         <span>

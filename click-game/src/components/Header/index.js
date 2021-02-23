@@ -6,9 +6,9 @@ const Header = () => {
     <div className="jumbotron jumbotron-fluid">
       <div className="container">
         <h1 className="display-4">Click Game</h1>
-        <p className="lead">
+        <h2 className="lead">
           Click on an image to earn points, but dont click on it more than once!
-        </p>
+        </h2>
       </div>
     </div>
   );
