@@ -4,6 +4,7 @@ import Header from "./components/Header/index";
 import ImgCard from "./components/ImageCard";
 import Footer from "./components/FooterOne";
 import Main from "./components/Main";
+import clubs from "./clubs.json";
 
 class App extends Component {
   state = {
@@ -15,9 +16,8 @@ class App extends Component {
   };
 
   clubShuffle = () => {
-    return clubs.sort((a, b) => {
-      Math.random() - 0.5;
-    });
+    let clubs = this.state.clubs.sort(() => Math.random() - 0.5);
+    this.setState({ clubs: clubs });
   };
 
   pickedCard = (id) => {
@@ -44,10 +44,22 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav />
+        <Nav
+          msg={this.state.msg}
+          score={this.state.score}
+          topScore={this.state.topScore}
+        />
         <Header />
-        <Main />
-        <ImgCard />
+        <Main>
+          {this.state.clubs.map((club) => (
+            <ImgCard
+              id={club.id}
+              key={club.id}
+              image={club.image}
+              pickedCard={this.pickedCard}
+            />
+          ))}
+        </Main>
         <Footer />
       </div>
     );

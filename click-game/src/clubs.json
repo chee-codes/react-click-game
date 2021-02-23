@@ -1,15 +1,54 @@
 [
-  { "id": 1, "image": "/images/arsenal.webp" },
-  { "id": 2, "image": "/images/aston-villa.webp" },
-  { "id": 3, "image": "/images/brighton.webp" },
-  { "id": 4, "image": "/images/chelsea.webp" },
-  { "id": 5, "image": "/images/crystal-palace.webp" },
-  { "id": 6, "image": "/images/everton.webp" },
-  { "id": 7, "image": "/images/leeds.webp" },
-  { "id": 8, "image": "/images/leicester.webp" },
-  { "id": 9, "image": "/images/liverpoolfc.webp" },
-  { "id": 10, "image": "/images/mancity.webp" },
-  { "id": 11, "image": "/images/manutd.webp" },
-  { "id": 12, "image": "/images/southhampton.webp" },
-  { "id": 13, "image": "/images/tottenham.webp" }
+  {
+    "id": 1,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21182406/580b57fcd9996e24bc43c4df.png"
+  },
+  {
+    "id": 2,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21154557/1200px-Aston_Villa_FC_crest_2016.svg_.png"
+  },
+  {
+    "id": 3,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21154338/1200px-Brighton__Hove_Albion_logo.svg_.png"
+  },
+  {
+    "id": 4,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21165447/chelsea-png-file-chelsea-fc-svg-600.png"
+  },
+  {
+    "id": 5,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21161236/1200px-Crystal_Palace_FC_logo.svg_.png"
+  },
+  {
+    "id": 6,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21171532/everton-5.jpg"
+  },
+  {
+    "id": 7,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2020/09/09105116/leeds.png"
+  },
+  {
+    "id": 8,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21171952/580b57fcd9996e24bc43c4e8.png"
+  },
+  {
+    "id": 9,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21182801/1200px-Liverpool_FC.svg_.png"
+  },
+  {
+    "id": 10,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21154544/1200px-Manchester_City_FC_badge.svg_.png"
+  },
+  {
+    "id": 11,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21161251/manchester-united-logo-premier-league-large-soccer.jpg"
+  },
+  {
+    "id": 12,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21172931/1200px-FC_Southampton.svg_.png"
+  },
+  {
+    "id": 13,
+    "image": "https://m0.joe.co.uk/wp-content/uploads/2019/06/21171652/580b57fcd9996e24bc43c4ee.png"
+  }
 ]

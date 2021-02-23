@@ -1,8 +1,8 @@
 import React from "react";
 import Style from "./style.css";
 
-const Main = () => {
-  return <div className="row row-cols-2"></div>;
+const Main = (props) => {
+  return <div className="row">{props.children}</div>;
 };
 
 export default Main;

@@ -1,14 +1,11 @@
 import React from "react";
 import Style from "./style.css";
 
-const ImgCard = () => {
+const ImgCard = (props) => {
   return (
-    <div className="col mb-4">
-      <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-        </div>
+    <div className="col col-md-3">
+      <div className="card" onClick={() => props.pickedCard(props.id)}>
+        <img src={props.image} className="card-img-top" />
       </div>
     </div>
   );
